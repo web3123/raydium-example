@@ -1,15 +1,18 @@
 {
   "dependencies": {
-    "@solana/web3.js": "^1.95.4"
+    "@solana/web3.js": "^1.95.4",
+    "esrun": "^3.2.26"
   },
   "name": "raydium-example",
   "version": "1.0.0",
   "description": "solana example",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kczhu",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.4"
+  }
 }
