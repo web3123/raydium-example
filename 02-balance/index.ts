@@ -85,8 +85,8 @@ async function main() {
     console.log("New Account Public Key:", newAccount.publicKey.toString());
     // console.log("New Account Private Key:", newAccount.secretKey);
 
-    // 空投 10 SOL 到新账户
-    await airdropSol(newAccount.publicKey, 3);
+    // 空投 SOL 到新账户
+    // await airdropSol(newAccount.publicKey, 2);
 
     // 查询新账户的余额
     await getAccountBalance(newAccount.publicKey);
