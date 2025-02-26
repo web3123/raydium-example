@@ -1,5 +1,5 @@
 import { Connection, PublicKey, clusterApiUrl } from '@solana/web3.js';
-import * as BN from 'bn.js';
+import { BN } from 'bn.js';
 
 // 创建RPC连接
 // const connection = new Connection("https://api.mainnet-beta.solana.com", "confirmed");
