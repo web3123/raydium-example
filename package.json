@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@solana/web3.js": "^1.95.4",
+    "bn.js": "^5.2.1",
     "esrun": "^3.2.26"
   },
   "name": "raydium-example",
