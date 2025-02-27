@@ -1,4 +1,5 @@
 import { Connection, PublicKey, clusterApiUrl } from '@solana/web3.js';
+// import { Buffer } from 'buffer';
 import { BN } from 'bn.js';
 
 // 创建RPC连接
@@ -17,6 +18,7 @@ async function main() {
     console.log(dataBuffer)
 
     const offset = 253
+    // const sqrtPriceX64Buffer = Buffer.from(dataBuffer).slice(offset, offset + 16); // 读取16个字节
     const sqrtPriceX64Buffer = dataBuffer.slice(offset, offset + 16); // 读取16个字节
     const sqrtPriceX64Value = new BN(sqrtPriceX64Buffer, 'le'); // 使用小端字节序创建BN实例
     console.log(`sqrtPriceX64Value at offset ${offset}:`, sqrtPriceX64Value.toString());
