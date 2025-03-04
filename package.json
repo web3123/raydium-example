@@ -1,9 +1,10 @@
 {
   "dependencies": {
     "@solana/web3.js": "^1.95.4",
+    "@types/ws": "^8.5.14",
     "bn.js": "^5.2.1",
     "buffer": "^6.0.3",
-    "esrun": "^0.0.1"
+    "ws": "^8.18.1"
   },
   "name": "raydium-example",
   "version": "1.0.0",
@@ -16,6 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/bn.js": "^5.1.6",
-    "@types/node": "^22.13.5"
+    "@types/node": "^22.13.5",
+    "esrun": "^3.2.26"
   }
 }

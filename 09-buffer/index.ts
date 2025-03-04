@@ -5,7 +5,8 @@ import { BN } from 'bn.js';
 // 创建RPC连接
 // const connection = new Connection("https://api.mainnet-beta.solana.com", "confirmed");
 // const connection = new Connection(clusterApiUrl("devnet"), "confirmed");
-const connection = new Connection("https://mainnet-ams.chainbuff.com", "confirmed");
+const rpcURL = "https://devnet-rpc.shyft.to?api_key=jhMy_G9KF_d6MPTw";
+const connection = new Connection(rpcURL, "confirmed");
 
 async function main() {
 
